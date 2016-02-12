@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html lang="fi">
+    <head>
+        <meta charset="utf-8"/>
+        <!-- people behind html5, thank you! -->
+
+        <meta name="ROBOTS" content="NOINDEX,NOFOLLOW" />
+
+        <title>JavaScript-hiekkalaatikko</title>
+
+        <link rel="stylesheet" href="adc.css">
+
+    </head>
+
+    <body>
+        <script src="adc.js"></script>
+
+        <div id="canvasdiv">
+            <canvas width="640" height="480" id="canvaz"></canvas>
+        </div>
+        <div id="napit">
+            <label><input type="checkbox" id="dfnc">Draw function</label>
+            <label><input type="checkbox" id="dsmpls">Draw samples</label>
+            <label id="llvls"><input type="checkbox" id="dlvls">Draw levels</label>
+            <label><input type="number" value="0" min="1" max="1024" id="dns">Samples</label>
+            <button id="dmns">-</button>
+            <button id="dpls">+</button>
+            <label><input type="number" value="8" max="16" min="1" id="dbts">bits</label>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,7 @@
+---
+ name: AD Converter demo
+ description: Short program to demo AD conversion.
+ authors:
+   - Jonne Itkonen
+ normalize_css: no
+...
